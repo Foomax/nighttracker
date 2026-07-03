@@ -1,0 +1,25 @@
+disabled_rules:
+  - trailing_whitespace
+  - todo
+opt_in_rules:
+  - force_unwrapping
+  - implicitly_unwrapped_optional
+line_length: 140
+type_body_length:
+  warning: 400
+  error: 600
+file_length:
+  warning: 500
+  error: 800
+function_body_length:
+  warning: 80
+  error: 120
+identifier_name:
+  min_length: 1
+  excluded:
+    - id
+    - x
+    - y
+excluded:
+  - build
+  - .build
